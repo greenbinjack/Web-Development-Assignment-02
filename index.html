@@ -1,73 +1,255 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/css/styles.css">
-  <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Freaks</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
 </head>
-<body class="inter-normal">
-  <header class="header">
-    <nav class="display-flex nav">
-      <h1 class="brand-name"><i>Fitness</i></h1>
-      <ul class="display-flex menu">
-        <li class="menu-items orange-bg">Home</li>
-        <li class="menu-items">Service</li>
-        <li class="menu-items">Contact</li>
-        <li class="menu-items">About</li>
-      </ul>
-    </nav>  
-    <section class="display-flex intro">
-      <div>
-        <h1>
-          Get body in <span>shape</span> & stay healthy
-        </h1>
-        <p>
-          A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!
+<body class="text-primary inter-normal">
+    <header class="header-background">
+        <nav class="nav-bar side-spaces display-flex">
+            <h1 class="brand-name">Fitness</h1>
+            <div class="nav-menu">
+                <ul class="menu-items display-flex">
+                    <li class="menu-item display-flex home-design"><a href="#" class="links">Home</a></li>
+                    <li class="menu-item"><a href="#" class="links">Service</a></li>
+                    <li class="menu-item"><a href="#" class="links">Contact</a></li>
+                    <li class="menu-item"><a href="#" class="links">About</a></li>
+                </ul>
+            </div>
+        </nav>
+        <section class="cover display-flex side-spaces">
+            <div class="cover-description display-flex">
+                <h1 class="cover-title">Get body in <br><span class="miama">shape</span> & stay <br>healthy</h1>
+                <p class="cover-details text-secondary">A huge selection of health and fitness content, healthy recipes and transformation stories to help you get fit and stay fit!</p>
+                <div class="cover-buttons display-flex">
+                    <button class="btn-primary btn-secondary">Join Club Now!</button>
+                    <button class="btn-primary">Download App</button>
+                </div>
+            </div>
+            <div>
+                <img class="cover-image display-flex" src="./assets/images/Images 2.png" alt="a person holding dumbell">
+                <div class="visual display-flex video-tutorial">
+                    <img src="./assets/images/video-icon.png" alt="">
+                    <div class="visual-cards">
+                        <h2>350+</h2>
+                        <p class="text-secondary">Video tutorial</p>
+                    </div>
+                </div>
+                <div class="visual display-flex free-workout">
+                    <div class="visual-cards">
+                        <h1>500+</h1>
+                        <p class="text-secondary">Free Workout Videos</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <main class="dark-background main display-flex">
+      <section class="habit side-spaces display-flex">
+          <div class="habit-intro">
+              <h2 class="habit-title">Change Your Habits</h2>
+              <p class="habit-description text-secondary">
+                  We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
+              </p>
+          </div>
+          <div class="habit-list display-grid">  
+              <div class="habit-card">
+                  <img src="./assets/images/image 3.png" alt="push up">
+                  <h2 class="habit-card-title">Movement</h2>
+                  <p class="habit-card-description text-secondary">
+                      We believe fitness should be accessible to everyone
+                  </p>
+              </div>
+              <div class="habit-card">
+                  <img src="./assets/images/image 2.png" alt="hands up">
+                  <h2 class="habit-card-title">Time</h2>
+                  <p class="habit-card-description text-secondary">
+                      We believe fitness should be accessible to everyone
+                  </p>
+              </div>
+              <div class="habit-card">
+                  <img src="./assets/images/image 4.png" alt="push up">
+                  <h2 class="habit-card-title">Practice</h2>
+                  <p class="habit-card-description text-secondary">
+                      We believe fitness should be accessible to everyone
+                  </p>
+              </div>
+              <div class="habit-card">
+                  <img src="./assets/images/image 5.png" alt="using dumbell">
+                  <h2 class="habit-card-title">Weight Loss</h2>
+                  <p class="habit-card-description text-secondary">
+                      We believe fitness should be accessible to everyone
+                  </p>
+              </div>
+          </div>
+      </section>
+      <section class="extra-mile side-spaces display-flex ash-background">
+          <div class="extra-mile-intro">
+              <h1 class="extra-mile-intro-title text-title">Run an Extra<br>Mile Easily</h1>
+              <p class="extra-mile-intro-description text-secondary">
+                  We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym. With hundreds of professional workouts.
+              </p>
+              <button class="btn-primary btn-secondary extra-mile-btn">Join Now</button>
+          </div>
+          <div class="extra-mile-image"></div>
+      </section>
+      <section class="bmi-intro side-spaces">
+        <h1 class="bmi-intro-title text-title">BMI Calculator</h1>
+        <p class="text-secondary">
+          We believe fitness should be accessible to everyone, everywhere,
+          regardless of income or access to a gym.
         </p>
-        <button class="orange-bg">
-          Join Club Now
-        </button>
-        <button>
-          Download App
-        </button>
-      </div>
-      <div>
-        ,<img src="/assets/Images 2.png" alt="a person carrying a 10kg dumbbell">
-      </div>
-    </section>
-  </header>
-  <main>
-    <section class="habit display-flex"> 
-      <div>
-        <h1 class="habit-heading">Change Your Habits</h1>
-        <p class="habit-desc">We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.</p>
-      </div>
-      <div>
-        <div class="habit-card">
-          <div><img src="" alt=""></div>
-          <h3></h3>
-          <p></p>
+      </section>
+      <section class="bmi-calculator ash-background display-flex">
+        <div class="bmi-calculator-chart">
+          <h1 class="bmi-calculator-chart-title">BMI Calculator Chart</h1>
+          <table class="bmi-calculator-chart-table text-secondary">
+            <tr class="text-primary">
+              <th class="bmi-calculator-chart-table-head">BMI</th>
+              <th class="bmi-calculator-chart-table-head">Weight Status</th>
+            </tr>
+            <tr>
+              <td class="bmi-calculator-chart-table-data">Below 18.5</td>
+              <td class="bmi-calculator-chart-table-data">Underweight</td>
+            </tr>
+            <tr>
+              <td class="bmi-calculator-chart-table-data">18.5 - 24.9</td>
+              <td class="bmi-calculator-chart-table-data">Healthy</td>
+            </tr>
+            <tr>
+              <td class="bmi-calculator-chart-table-data">25.0 - 29.9</td>
+              <td class="bmi-calculator-chart-table-data">Overweight</td>
+            </tr>
+            <tr>
+              <td class="bmi-calculator-chart-table-data">30.0 - and Above</td>
+              <td class="bmi-calculator-chart-table-data">Obese</td>
+            </tr>
+          </table>
         </div>
-        <div class="habit-card">
-          <div><img src="" alt=""></div>
-          <h3></h3>
-          <p></p>
+        <div class="bmi-form display-flex">
+          <h2 class="bmi-form-title">Calculate your BMI</h2>
+          <p class="bmi-form-description text-secondary">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+          <div class="bmi-form-form display-grid text-secondary">
+            <input type="text" placeholder="Height/cm" class="Height" />
+            <input type="text" placeholder="Weight/kg" class="Weight" />
+            <input type="text" placeholder="Age" class="Age" />
+            <select class="Sex">
+              <option>Sex</option>
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+            <select class="Activity">
+              <option>Select an activity factor</option>
+              <option>Work for 1 Hours</option>
+              <option>Work for 2 Hours</option>
+              <option>Work for 3 Hours</option>
+              <option>Work for 4 Hours+</option>
+            </select>
+            <button class="btn-primary bmi-btn">Calculate</button>
+          </div>
         </div>
-        <div class="habit-card">
-          <div><img src="" alt=""></div>
-          <h3></h3>
-          <p></p>
+      </section>
+      <section class="pricing-intro side-spaces">
+        <h2 class="pricing-intro-title text-title">Pricing Options</h2>
+        <p class="text-secondary">
+          Let us take your workout routines
+          to the next level. Find a training that matches your needs and select your membership.
+        </p>
+      </section>
+      <section class="pricing-cards-list display-flex">
+        <div class="pricing-card-item ash-background display-flex">
+          <h3 class="pricing-card-item-title">BASIC</h3>
+          <h3 class="pricing-card-item-price">$29.99</h3>
+          <p class="pricing-card-item-time">PER MONTH</p>
+          <ul class="pricing-card-item-services">
+            <li>Access to all online workout videos</li>
+            <li>Basic workout plans (e.g., beginner, intermediate, advanced)</li>
+            <li>Access to a community forum</li>
+            <li>Monthly newsletter with tips and updates</li>
+          </ul>
+          <div class="pricing-card-item-btn display-flex"><button class="btn-primary">Get Now</button></div>
         </div>
-        <div class="habit-card">
-          <div><img src="" alt=""></div>
-          <h3></h3>
-          <p></p>
-        </div> 
+        <div class="pricing-card-item ash-background display-flex">
+          <h3 class="pricing-card-item-title">STANDARD</h3>
+          <h3 class="pricing-card-item-price">$59.99</h3>
+          <p class="pricing-card-item-time">PER MONTH</p>
+          <ul class="pricing-card-item-services">
+            <li>Everything in the Basic Plan</li>
+            <li>Customized workout plans based on user goals</li>
+            <li>Access to live online classes</li>
+            <li>Nutrition guide and meal plans</li>
+            <li>Monthly check-ins with a virtual trainer</li>
+            <li>Access to a members-only app with tracking features</li>
+          </ul>
+          <div class="pricing-card-item-btn display-flex"><button class="btn-primary">Get Now</button></div>
+        </div>
+        <div class="pricing-card-item ash-background display-flex">
+          <h3 class="pricing-card-item-title">PREMIUM</h3>
+          <h3 class="pricing-card-item-price">$99.99</h3>
+          <p class="pricing-card-item-time">PER MONTH</p>
+          <ul class="pricing-card-item-services">
+            <li>Everything in the Standard Plan</li>
+            <li>One-on-one virtual personal training sessions (e.g., 4 sessions per month)</li>
+            <li>Personalized diet and nutrition consultation</li>
+            <li>Priority customer support</li>
+            <li>Discounts on fitness gear and supplements</li>
+            <li>Access to exclusive workshops and webinars with fitness experts</li>
+          </ul>
+          <div class="pricing-card-item-btn display-flex"><button class="btn-primary">Get Now</button></div>
+        </div>
+      </section>
+      <section class="meet-team-intro side-spaces">
+        <h2 class="meet-team-title text-title">Meet Our Team</h2>
+        <p class="meet-team-description text-secondary">
+          We believe fitness should be accessible to everyone, everywhere, regardless of income or access to a gym.
+        </p>
+      </section>
+      <section class="meet-team-collage side-spaces display-grid ash-background ">
+        <div class="meet-team-image-01"></div>
+        <div class="meet-team-image-02"></div>
+        <div class="meet-team-image-03"></div>
+        <div class="meet-team-image-04"></div>
+        <div class="meet-team-image-05"></div>
+        <div class="meet-team-image-06"></div>
+      </section>
+    </main>
+    <footer class="ash-background">
+      <div class="footer side-spaces display-flex">
+        <div class="footer-intro display-flex">
+          <h3 class="footer-intro-title">Fitness</h3>
+          <p class="footer-intro-description text-secondary">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym. With hundreds of
+            professional workouts.
+          </p>
+        </div>
+        <div class="footer-service-list">
+          <h4 class="footer-service-list-title">Get Started</h4>
+          <ul>
+            <li class="footer-service-list-item">Service</li>
+            <li class="footer-service-list-item">Contact Us</li>
+            <li class="footer-service-list-item">Affiliate Program</li>
+            <li class="footer-service-list-item">About Us</li>
+          </ul>
+        </div>
+        <div class="footer-service-list">
+          <h4 class="footer-service-list-title">Get Started</h4>
+          <p class="footer-service-list-item">Fitness</p>
+          <p class="footer-service-list-item">Platform</p>
+          <p class="footer-service-list-item">Affiliate Program</p>
+          <p class="footer-service-list-item">App Design</p>
+        </div>
       </div>
-    </section>
-  </main>
-  <footer>
-
-  </footer>
-</body>
+      <div class="footer-copyright">
+        <hr class="footer-copyright-hr-line"/>
+        <p class="text-secondary footer-copyright-DONE">All Rights Reserved &#64;Fitness 2024</p>
+      </div>
+    </footer>
+  </body>
 </html>
