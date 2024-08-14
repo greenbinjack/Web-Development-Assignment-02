@@ -1,118 +1,110 @@
-
 /* Mobile Responsive Part */
 
-@media screen and (max-width: 578px) {
-  /* shared styles */
+@media screen and (max-width:576px) {
+    /* shared styles */
   .btn-primary {
-      font-size: 1rem;
+    font-size:1rem;
   }
-  /* navigation bar styles */
   .side-spaces {
-      padding: 0px 80px;
-  }
-  .brand-name {
-    font-size: 2rem;
+    margin: 0px 40px;
   }
   .text-title {
-      font-size: 2rem;
+    font-size:2rem;
   }
-  .nav-menu{
-      visibility: hidden;
+  /* navigation bar styles */
+  .brand-name {
+    font-size:2rem;
   }
-  .nav-bar{
-      padding-top: 30px;
+  .nav-menu {
+    display: none;
+  }
+  .nav-hamburger-icon {
+    display: flex;
+  }
+  .nav-bar {
+    padding-top:30px;
   }
   /* cover styles */
-  .cover{
-      flex-direction: column;
-      gap: 40px;
-      margin-top: 60px;
-      text-align: left;
+  .cover {
+    flex-direction:column;
+    gap:40px;
+    margin-top:60px;
+    text-align:left;
   }
-  .cover-title{
-      font-size: 3rem; 
-      line-height: 50px;
-      width: 100%;
+  .cover-title {
+    font-size:3rem;
+    line-height:50px;
+    width:100%;
   }
   .miama {
-    font-size: 5rem;
+    font-size:5rem;
   }
-  .visual{
-      width: 140px;
-      height: 70px;
+  .visual {
+    width:140px;
+    height:70px;
   }
-  .video-tutorial{
-    top: -130px;
-    left: -15%;
+  .video-tutorial {
+    top:-130px;
+    left:-15%;
   }
-  .free-workout{
-    top: -500px;
-    left: 60%;   
+  .free-workout {
+    top:-500px;
+    left:60%;
   }
   .btn-primary {
-      width: calc((100% - 24px)/2);
-      font-weight: 500;
-      padding: 10px 0;
+    width:calc((100% - 24px)/2);
+    font-weight:500;
+    padding:10px 0;
   }
   .visual-cards > h2 {
-      font-size: 1.2rem;
+    font-size:1.2rem;
   }
   .visual-cards > h1 {
-      font-size: 1.5rem;
-      line-height: 40px;
+    font-size:1.5rem;
+    line-height:40px;
   }
-  .visual-cards > p{
-      font-size: 0.7rem;
-      line-height: 5px;
+  .visual-cards > p {
+    font-size:0.7rem;
+    line-height:5px;
   }
-
   /* main styles */
-
-  /* habit styles */
-  .habit-list{
-      grid-template-columns: repeat(1, 1fr);
+  
+    /* habit styles */
+    .habit-list {
+    grid-template-columns:repeat(1,1fr);
   }
   .habit-title {
-    line-height: 60px;
-    margin-bottom: 20px;
+    line-height:60px;
+    margin-bottom:20px;
   }
-
   /* run extra mile styles */
-
-  .extra-mile {
-      flex-direction: column;
-      justify-content: center;
-      gap: 30px;
-      margin-top: 70px;
-      padding: 40px;
+  
+    .extra-mile {
+    flex-direction:column;
+    justify-content:center;
+    gap:30px;
+    margin-top:70px;
+    padding:40px;
   }
-  .extra-mile-image{
-      background-size: cover;
-      min-width: 90%;
-      min-height: 220px;
+  .extra-mile-image {
+    background-size:cover;
+    min-width:90%;
+    min-height:220px;
   }
   .btn-join {
-      width: 100%;
-      max-width: 100%;
+    width:100%;
+    max-width:100%;
   }
   /* bmi styles */
-  /* pricing styles */
-  .pricing-intro-title {
-    line-height: 60px;
-    margin-bottom: 20px;
+    /* pricing styles */
+    .pricing-intro-title {
+    line-height:60px;
+    margin-bottom:20px;
   }
   .pricing-cards-list {
-    flex-direction: column;
+    flex-direction:column;
   }
   .pricing-card-item {
-    margin-bottom: 10px;
+    margin-bottom:10px;
   }
-}
-
-
-
-
-
-
-
-
+  }
