@@ -447,6 +447,17 @@
   background-repeat:no-repeat;
   background-size:cover;
 }
+
+.meet-team-member-info {
+  flex-direction: column;
+  position: relative;
+  top: 215px;
+  left: 20px;
+}
+.meet-team-member {
+  font-weight: 900;
+}
+
 /* footer styles */
 
 .footer {
