@@ -99,23 +99,12 @@
   .bmi-calculator {
     flex-direction: column;
     justify-content: space-between;
+    align-items: start;
     text-align: left;
+    padding:50px 30px;
   }
   .bmi-calculator-chart {
     margin-bottom: 30px;
-  }
-  .bmi-form-form {
-    flex-direction: column;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(7, auto); 
-  }
-
-  .Height, .Weight, .Age, .Sex, .Activity, .bmi-btn {
-    grid-column: 1;
-  }
-
-  .bmi-btn {
-    margin-top: 20px; 
   }
   /* pricing styles */
   .pricing-intro-title {
@@ -138,5 +127,10 @@
   /* footer styles */
   .footer {
     flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .footer-intro {
+    margin-bottom: 20px;
   }
 }

@@ -256,7 +256,7 @@
 /* BMI calculator styles */
 
 .bmi-intro {
-  text-align:center;
+  text-align:left;
   padding-bottom:40px;
 }
 .bmi-intro-title {
@@ -273,6 +273,9 @@
   align-items:center;
   padding:50px 100px;
   margin-bottom:100px;
+}
+.bmi-calculator-chart {
+  text-align: left;
 }
 .bmi-calculator-chart-title {
   font-size:1.8rem;
@@ -296,53 +299,35 @@
   font-size:0.8rem;
   font-weight:400;
 }
+
 .bmi-form {
   max-width:500px;
-  flex-direction:column;
-  justify-content:left;
-  align-items: center;
+  width: 100%;
   text-align:left;
 }
 .bmi-form-title {
   font-size:1.8rem;
   font-weight:900;
+  margin-bottom: 10px;
+  width: 100;
 }
 .bmi-form-description {
   margin-bottom:20px;
   line-height:30px;
 }
-.bmi-form-form {
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  grid-template-rows:repeat(3,auto);
-  gap:10px;
-}
-.Height {
-  grid-column:1 / 2;
-  grid-row:1;
-}
-.Weight {
-  grid-column:2 / 3;
-  grid-row:1;
-}
-.Age {
-  grid-column:1 / 2;
-  grid-row:2;
-}
-.Sex {
-  grid-column:2 / 3;
-  grid-row:2;
+.bmi-form-fields {
+  width: 100%;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto auto;
+  gap: 15px;
 }
 .Activity {
-  grid-column:1 / 3;
-  grid-row:3;
+  grid-column: 1 / 3; 
 }
 .bmi-btn {
   margin-top:20px;
-  grid-column:1 / 3;
-  grid-row:4;
 }
-.Height,.Weight,.Age,.Sex,.Activity {
+.input-field {
   border-radius:8px;
   background-color:rgba(255,255,255,0.1);
   width:100%;
@@ -475,6 +460,7 @@
   font-weight:900;
   font-style:italic;
   color:#E6533C;
+  margin-bottom: 10px;
 }
 .footer-intro-description {
   line-height:25px;

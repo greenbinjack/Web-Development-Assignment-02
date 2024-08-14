@@ -134,31 +134,30 @@
             </tr>
           </table>
         </div>
-          <div class="bmi-form display-flex">
-            <h2 class="bmi-form-title">Calculate your BMI</h2>
-            <p class="bmi-form-description text-secondary">
-              We believe fitness should be accessible to everyone, everywhere,
-              regardless of income or access to a gym.
-            </p>
-            <div class="bmi-form-form display-grid text-secondary">
-              <input type="text" placeholder="Height/cm" class="Height" />
-              <input type="text" placeholder="Weight/kg" class="Weight" />
-              <input type="text" placeholder="Age" class="Age" />
-              <select class="Sex">
-                <option>Sex</option>
-                <option>Male</option>
-                <option>Female</option>
-              </select>
-              <select class="Activity">
-                <option>Select an activity factor</option>
-                <option>Work for 1 Hours</option>
-                <option>Work for 2 Hours</option>
-                <option>Work for 3 Hours</option>
-                <option>Work for 4 Hours+</option>
-              </select>
-              <button class="btn-primary btn-secondary bmi-btn">Calculate</button>
-            </div>
+        <div class="bmi-form">
+          <h2 class="bmi-form-title">Calculate your BMI</h2>
+          <p class="bmi-form-description text-secondary">
+            We believe fitness should be accessible to everyone, everywhere,
+            regardless of income or access to a gym.
+          </p>
+          <div class="bmi-form-fields display-grid">
+            <input type="text" placeholder="Height/cm" class="input-field Height" />
+            <input type="text" placeholder="Weight/kg" class="input-field Weight" />
+            <input type="text" placeholder="Age" class="input-field Age" />
+            <select class="input-field Sex">
+              <option>Sex</option>
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+            <select class="input-field Activity">
+              <option>Select an activity factor</option>
+              <option>Workout 1 Hr</option>
+              <option>Workout 2 Hrs</option>
+              <option>Workout 3+ Hrs</option>
+            </select>
+            <button class="btn-primary btn-secondary bmi-btn">Calculate</button>
           </div>
+        </div>
       </section>
       <section class="pricing-intro side-spaces">
         <h2 class="pricing-intro-title text-title">Pricing Options</h2>
