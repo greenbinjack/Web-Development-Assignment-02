@@ -61,10 +61,19 @@
   border-radius:42px;
   font-size:1.125rem;
   font-weight:600;
+  cursor: pointer;
+}
+.btn-primary:hover {
+  background:white;
+  color:black;
 }
 .btn-secondary {
   background-color:rgba(230,83,60,1);
   border:none;
+}
+.btn-secondary:hover {
+  background-color: white;
+  color: rgba(230,83,60,1);
 }
 /* Header styles */
 
@@ -130,13 +139,14 @@
   margin-bottom:40px;
 }
 .cover-title {
-  font-size:4.5rem;
+  font-size:4rem;
+  font-weight: 1000;
   line-height:80px;
   width:100;
 }
 .miama {
   font-size:8rem;
-  font-weight:500;
+  font-weight:550;
 }
 .cover-details {
   font-size:1rem;
@@ -205,14 +215,7 @@
   padding-bottom:40px;
 }
 .habit-title {
-  font-size:2.7rem;
-  font-weight:700;
   line-height:80px;
-}
-.habit-description {
-  font-size:1rem;
-  font-weight:300;
-  line-height:25px;
 }
 .habit-list {
   grid-template-columns:repeat(4,1fr);
@@ -256,7 +259,7 @@
 /* BMI calculator styles */
 
 .bmi-intro {
-  text-align:left;
+  text-align:center;
   padding-bottom:40px;
 }
 .bmi-intro-title {
@@ -321,11 +324,12 @@
   grid-template-rows: auto auto auto;
   gap: 15px;
 }
+.input-field.Sex option, .input-field.Activity option {
+  background-color: white;
+  color: black;
+}
 .Activity {
   grid-column: 1 / 3; 
-}
-.bmi-btn {
-  margin-top:20px;
 }
 .input-field {
   border-radius:8px;
@@ -338,6 +342,10 @@
   font-weight:400;
   padding-left:10px;
   margin-top:12px;
+}
+.bmi-btn {
+  margin-top:20px;
+  min-width: 200px;
 }
 /* pricing styles*/
 
@@ -364,6 +372,7 @@
   padding:40px;
   flex-direction:column;
   text-align:left;
+  height: auto;
 }
 .pricing-card-item-title {
   font-size:1.8rem;
@@ -378,6 +387,9 @@
   font-weight:500;
   margin-bottom:20px;
 }
+.pricing-card-item-services {
+  list-style-type: square;
+}
 .pricing-card-item-services > li {
   font-size:1rem;
   margin-bottom:15px;
@@ -387,6 +399,7 @@
   align-items:center;
   text-align:center;
   padding-top:15px;
+  min-width: 100px;
 }
 /* meet team styles */
 

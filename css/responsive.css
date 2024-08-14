@@ -3,7 +3,7 @@
 @media screen and (max-width:576px) {
     /* shared styles */
   .btn-primary {
-    font-size:1rem;
+    font-size:1.2rem;
   }
   .side-spaces {
     margin: 0px 20px;
@@ -69,8 +69,8 @@
   }
   /* main styles */
   
-    /* habit styles */
-    .habit-list {
+  /* habit styles */
+  .habit-list {
     grid-template-columns:repeat(1,1fr);
   }
   .habit-title {
@@ -78,7 +78,6 @@
     margin-bottom:20px;
   }
   /* run extra mile styles */
-  
   .extra-mile {
     flex-direction:column;
     justify-content:center;
