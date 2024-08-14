@@ -6,7 +6,7 @@
     font-size:1rem;
   }
   .side-spaces {
-    margin: 0px 40px;
+    margin: 0px 20px;
   }
   .text-title {
     font-size:2rem;
@@ -45,7 +45,7 @@
   }
   .video-tutorial {
     top:-130px;
-    left:-15%;
+    left:-2%;
   }
   .free-workout {
     top:-500px;
@@ -79,32 +79,64 @@
   }
   /* run extra mile styles */
   
-    .extra-mile {
+  .extra-mile {
     flex-direction:column;
     justify-content:center;
     gap:30px;
-    margin-top:70px;
-    padding:40px;
+    margin:70px 0px;
+    padding: 30px 25px;
   }
   .extra-mile-image {
     background-size:cover;
     min-width:90%;
     min-height:220px;
   }
-  .btn-join {
+  .extra-mile-btn {
     width:100%;
     max-width:100%;
   }
   /* bmi styles */
-    /* pricing styles */
-    .pricing-intro-title {
+  .bmi-calculator {
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .bmi-calculator-chart {
+    margin-bottom: 30px;
+  }
+  .bmi-form-form {
+    flex-direction: column;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, auto); 
+  }
+
+  .Height, .Weight, .Age, .Sex, .Activity, .bmi-btn {
+    grid-column: 1;
+  }
+
+  .bmi-btn {
+    margin-top: 20px; 
+  }
+  /* pricing styles */
+  .pricing-intro-title {
     line-height:60px;
     margin-bottom:20px;
   }
   .pricing-cards-list {
     flex-direction:column;
+    justify-content: center;
+    align-items: center;
   }
   .pricing-card-item {
     margin-bottom:10px;
   }
+  /* meet team styles */
+  .meet-team-collage {
+    grid-template-columns:repeat(1,1fr);
+    margin-bottom: 100px;
   }
+  /* footer styles */
+  .footer {
+    flex-direction: column;
+  }
+}
