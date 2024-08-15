@@ -51,21 +51,21 @@
 .display-grid {
   display:grid;
 }
+
 .btn-primary {
-  width:calc((90% - 24px)/2);
-  min-width:130px;
-  padding:14px 0;
+  min-width:200px;
+  padding:15px 20px;
   background:transparent;
   color:white;
   border:1px solid white;
   border-radius:42px;
-  font-size:1.125rem;
+  font-size:1.2rem;
   font-weight:600;
   cursor: pointer;
 }
 .btn-primary:hover {
-  background:white;
-  color:black;
+  color: black;
+  background-color: white;
 }
 .btn-secondary {
   background-color:rgba(230,83,60,1);
@@ -256,6 +256,7 @@
   background-position:67% 33%;
   border-radius:20px;
 }
+
 /* BMI calculator styles */
 
 .bmi-intro {
@@ -279,27 +280,30 @@
 }
 .bmi-calculator-chart {
   text-align: left;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
 }
 .bmi-calculator-chart-title {
   font-size:1.8rem;
   font-weight:900;
-  margin-bottom:40px;
+  margin-bottom:30px;
 }
 .bmi-calculator-chart-table,tr,th,td {
   border:1px solid rgba(255,255,255,0.1);
   border-collapse:collapse;
 }
 .bmi-calculator-chart-table-head,.bmi-calculator-chart-table-data {
-  min-width: 180px;
+  min-width: 120px;
   text-align:left;
   padding:10px 16px;
 }
 .bmi-calculator-chart-table-head {
-  font-size:1rem;
+  font-size:1.2rem;
   font-weight:600;
 }
 .bmi-calculator-chart-table-data {
-  font-size:0.8rem;
+  font-size:1rem;
   font-weight:400;
 }
 
@@ -344,7 +348,7 @@
   margin-top:12px;
 }
 .bmi-btn {
-  margin-top:20px;
+  margin-top: 20px;
   min-width: 200px;
 }
 /* pricing styles*/
@@ -365,6 +369,7 @@
   min-width:70%;
   justify-content:space-between;
   margin-bottom:100px;
+  align-items: flex-start;
 }
 .pricing-card-item {
   max-width:280px;
@@ -444,6 +449,7 @@
   background-position:center;
   background-repeat:no-repeat;
   background-size:cover;
+  filter: brightness(0.75);
 }
 
 .meet-team-member-info {
